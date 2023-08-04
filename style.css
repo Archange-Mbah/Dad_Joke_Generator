@@ -8,3 +8,50 @@ justify-content:center;
 align-items:center;
 font-family:monospace;
 }
+.container{
+    border:solid 1px black;
+    padding:20px;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 5px;
+    width:50%;
+    text-align:center;
+    animation: container 10s infinite;
+}
+@keyframes container{
+    0%{
+    box-shadow: 0 0 5px 0 black;
+    }
+    
+    50%{
+    box-shadow: 0 0 10px 0 blue;
+    }
+    
+    100%{
+    box-shadow: 0 0 5px 0 red;
+    }
+    
+}
+.heading{
+    font-size:35px;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:black;
+    text-shadow:5px 5px 0px rgb(0,0,0,0.2);
+    letter-spacing: 1px;;
+}
+.joke{
+    font-size:25px;
+    margin:40px ;
+}
+.btn{
+    font-size:20px;
+    font-weight:800px;
+    background-color: lightblue;
+    border-radius: 2px;
+    cursor:pointer;
+    padding:10px;
+}
+.btn:hover{
+    background-color: grey;
+    color:brown;
+}
